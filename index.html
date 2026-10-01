@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#1B1A17" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="つくも" />
+    <title>つくも</title>
+    <base href="/" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+    <link href="manifest.webmanifest" rel="manifest" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="boot">
+            <div class="boot-title">つくも</div>
+            <div class="boot-sub">WILD HEARTS コンパニオン</div>
+            <div class="boot-bar"><div class="boot-fill"></div></div>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui" style="display:none">
+        エラーが起きました。ページを再読み込みしてください。
+        <a href="." class="reload">再読み込み</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="js/tsukumo.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+</body>
+
+</html>
